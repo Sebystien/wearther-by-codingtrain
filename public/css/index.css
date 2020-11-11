@@ -1,0 +1,44 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #191919;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: grid;
+    place-items: center; */
+    height: 100vh;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 5px;
+   margin-left: 5px;
+    display: inline-block;
+}
+#temp{
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(207, 50%, 50%);
+}
+#sum{
+    font-weight: 700;
+    color: hsl(207, 50%, 50%);
+    ;
+}
+button{
+    border: none;
+    color: #fff;
+    background: dodgerblue;
+    padding: 10px 15px;
+    display: block;
+}
+
