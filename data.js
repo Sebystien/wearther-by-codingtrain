@@ -6,8 +6,9 @@ require('dotenv').config();
 console.log(process.env)
 
 const app = express();
+const port = process.env.PORT || 3000;
 
-app.listen(1111, ()=>console.log('listen'));
+app.listen(port, ()=>console.log(`listen at port ${port}`));
 app.use(express.static(__dirname + '/public'));
 
 app.use(express.json({limit: '1mb'}));
